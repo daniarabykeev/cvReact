@@ -1,0 +1,38 @@
+{
+  "name": "gresumereact",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/daniarabykeev",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "gh-pages": "^3.2.3",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "react-scripts": "1.0.7",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "stylus": "stylus -u nib -c -w -o public/css/style.css src/index.styl",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "description": "CV in ReactJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniarabykeev"
+  },
+  "keywords": [
+    "Gresume",
+    "react",
+    "jsx"
+  ]
+}
